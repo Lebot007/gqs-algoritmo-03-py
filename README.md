@@ -40,3 +40,6 @@ Navegador (JS) → API Python (FastAPI) → Supabase (PostgreSQL)
 
 ## Versionamento
 GitFlow (main, develop, feature/*), commits semânticos (feat, fix, test, ci, docs) e PR com aprovação de 1 integrante.
+
+## Fluxo de entrega
+As branches `feature/*` devem ser integradas em `develop` por Pull Request após a execução do CI. A entrega final segue por Pull Request de `develop` para `main`, mantendo o histórico de revisão e validação no GitHub.
