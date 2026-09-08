@@ -1,0 +1,36 @@
+projeto/
+│
+├── .gitignore
+├── README.md
+├── estrutura.txt
+├── index.html
+├── style.css
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── js/
+│   ├── app.js
+│   ├── banco.js
+│   ├── config.js
+│   ├── simulacao.js
+│   └── ui.js
+│
+└── backend/
+    ├── .env
+    ├── .env.example
+    ├── requirements.txt
+    │
+    ├── app/
+    │   ├── __init__.py
+    │   ├── config.py
+    │   ├── main.py
+    │   ├── regras.py
+    │   ├── repositorio.py
+    │   └── schemas.py
+    │
+    └── tests/
+        ├── __init__.py
+        ├── test_api.py
+        └── test_regras.py
